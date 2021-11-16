@@ -34,7 +34,7 @@ const userbyemail=(req,res)=>{
 const newUser=(req,res)=>{
     const {username,email,passward}=req.body;
     users.push({username:username,email:email,passward:passward,fav:[]})
-    fs.writeFile("./db/users.json", JSON.stringify(users), (err) => {
+    fs.writeFile("./db/user.json", JSON.stringify(users), (err) => {
         if (err) {
           res.status(400).json("bad request");
         } else {

@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 
 //routers
 const foodRouter = require("./routers/routes/food");
-const userRouter = require("./routers/routes/food");
+const userRouter = require("./routers/routes/user");
 
 //initial express
 const app = express();
