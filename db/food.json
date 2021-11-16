@@ -1,17 +1,20 @@
 [
     {
+    
       "name": "Karak tea with French coffee with hazelnuts",
       "type": "Hot drinks",
       "favorite": false,
      "visited": false
     },
     {
+       
       "name": "Chicken kabsa",
       "type": "Saudi food",
       "favorite": false,
       "visited": false
     },
     {
+
       "name": "Kasadia",
       "type": "Sandwich",
       "favorite": false,

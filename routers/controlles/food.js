@@ -1,4 +1,4 @@
-const axios = require("axios");
+const fs = require("fs");
 
 const foods = [];
 
@@ -13,4 +13,8 @@ fs.readFile("./db/food.json", (err, data) => {
 
 const allFoods = (req, res) => {
   res.status(200).json(foods);
+};
+
+module.exports = {
+  allFoods,
 };
