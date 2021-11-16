@@ -1,8 +1,9 @@
 const fs = require("fs");
 
-const users;
+let users=[];
 
-fs.readFile("./db/users.json",(err,data)=>{
+//read data from file system user
+fs.readFile("./db/user.json",(err,data)=>{
     if(err){
         console.log(err);
         return err;
@@ -11,10 +12,12 @@ fs.readFile("./db/users.json",(err,data)=>{
     }
 })
 
+//read all data from filesystem user
 const allusers=(req,res)=>{
     res.status(200).json(users);
 }
 
+//read data by email from filesystem food
 const userbyemail=(req,res)=>{
     const {email}=req.body;
     const user=[];
@@ -26,7 +29,8 @@ const userbyemail=(req,res)=>{
     })
     res.status(200).json(user);
 }
-
+ 
+//creat new user and save in file system user
 const newUser=(req,res)=>{
     const {username,email,passward}=req.body;
     users.push({username:username,email:email,passward:passward,fav:[]})
