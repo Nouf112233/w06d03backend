@@ -1,0 +1,104 @@
+[
+    {
+      "name": "Karak tea with French coffee with hazelnuts",
+      "type": "Hot drinks",
+      "favorite": false,
+     "visited": false
+    },
+    {
+      "name": "Chicken kabsa",
+      "type": "Saudi food",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Kasadia",
+      "type": "Sandwich",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Chicken vegetable soup",
+      "type": "Soup",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Galaxy cups with cornflakes",
+      "type": "Cold dessert",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Potato salad",
+      "type": "Salad",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Masabib",
+      "type": "Popular food",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Iced Frappuccino",
+      "type": "Cold drinks",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Potato and eggplant tray with meat",
+      "type": "Oven trays",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Soft and fluffy pastry dough",
+      "type": "Pastries",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Hot Chocolate With Cocoa",
+      "type": "Hot drinks",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Fruit drink with milk and honey",
+      "type": "Cool drinks",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Creamy biscuit layers",
+      "type": "Desserts",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Chicken Caesar",
+      "type": "Salad",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Seliq",
+      "type": "Saudi food",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Grilled chicken sandwich",
+      "type": "Sandwich",
+      "favorite": false,
+      "visited": false
+    },
+    {
+      "name": "Pasta with feta cheese",
+      "type": "Macaroni",
+      "favorite": false,
+      "visited": false
+    }
+  ]
